@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{
+    background-color: bisque;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.megjelolt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: lightgray;
+}
+
+footer {
+    text-align: center;
+}

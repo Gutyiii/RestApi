@@ -1,0 +1,51 @@
+{
+    "konyvek": [
+      {
+        "id": 1,
+        "szerzo": "Stephan King",
+        "cim": "Éjszakai műszak",
+        "ar": 12000,
+        "tipus": "horror"
+      },
+      {
+        "id": 2,
+        "szerzo": "Rodney Habib",
+        "cim": "Az örök kutya",
+        "ar": 4990,
+        "tipus": "fantazi"
+      },
+      {
+        "id": 3,
+        "szerzo": "Matthew McConaughey",
+        "cim": "Zöldlámpa - A te naplód a te utad",
+        "ar": 3990,
+        "tipus": "horror"
+      },
+      {
+        "szerzo": "Keresztesi József",
+        "cim": "A hegyi zsupsz",
+        "ar": "2290",
+        "tipus": "vers",
+        "id": 4
+      },
+      {
+        "szerzo": "ANEEEEEEEEEEETTT",
+        "cim": "Szia Anett",
+        "ar": "0",
+        "tipus": "ANEEEEEEEEEEEEETTTT",
+        "id": 5
+      }
+    ],
+    "szerzo": [
+      {
+        "id": 1,
+        "nev": "Stephan King",
+        "nemzetisege": "angol"
+      },
+      {
+        "id": 2,
+        "nev": "Rodney Habib",
+        "nemzetisege": "német"
+      }
+    ]
+  }

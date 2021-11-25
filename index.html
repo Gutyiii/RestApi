@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>HTML Tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stilus.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="script.js"></script>
+    
+</header>
+
+<body>
+    <main>
+        <header>
+            <h1>RestApi</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><button id="rendezesArszerint">Árszerint</button></li>
+                <li><button id="ujadatBesuras">Új adat beszúrása</button></li>
+                <li><button id="adattorles">Adat törlés</button></li>
+                <li><button id="adatmodosit">Adat módósít</button></li>
+            </ul>
+        </nav>
+        <article>
+            <div class="keresomezo">
+                <form>
+                    <label for="kmezo">Kereső mező:</label>
+                    <input type="text" id="kmezo" name="kmezo" placeholder="Írj be valamit..." style="width: 300px;">
+                    
+                </form>
+            </div>
+            <br>
+            <div class="torlesmezooo">
+                <form>
+                    <label for="mezoszam">Törölni kívánt mező id-ja:</label>
+                    <input type="number" id="mezoszam" name="mezoszam" placeholder="Írj be valamit..." style="width: 300px;">
+                    <select id="szuloeleme">
+                        <option class="gyerekeleme"></option>
+                    </select>
+                </form>
+            </div>
+            <br>
+            <div class="ujadat">
+                <form>
+                    <fieldset>
+                        <legend>Új adat hozzáadásához szükséges mező:</legend>
+                        <label for="bekertSzerzo">Szerző:</label>
+                        <input type="text" id="bekertSzerzo" name="bekertSzerzo" placeholder="Add meg a szerzőt..."
+                            style="width: 300px;"><br>
+                        <label for="bekertCim">Cím:</label>
+                        <input type="text" id="bekertCim" name="bekertCim" placeholder="Add meg a címet..."
+                            style="width: 300px;"><br>
+                        <label for="bekertAr">Ára:</label>
+                        <input type="number" id="bekertAr" name="bekertAr" placeholder="Add meg az árát..."
+                            style="width: 300px;">
+                        <br>
+                        <label for="bekertMufaj">Műfaja:</label>
+                        <input type="text" id="bekertMufaj" name="bekertMufaj" placeholder="Add meg a műfajt..."
+                            style="width: 300px;"><br>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="megjelolt">
+
+            </div>
+
+        </article>
+
+
+
+        <footer>Gutyina András oldala</footer>
+    </main>
+</body>
+
+</html>
